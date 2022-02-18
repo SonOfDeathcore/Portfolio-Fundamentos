@@ -1,6 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #242635;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blue {
+    color: #34b0be
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+nav {
+    padding: 10px;
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav>ul>li {
+    list-style: none;
+    padding-right: 3.5rem;
+}
+
+section {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+div.h2 {
+    width: 20rem
+}
+
+.soy {
+    color:#FFFFFF;
+    font-size: 50px;
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.nombre {
+    color:#34b0be;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.marketing {
+    color:#FFFFFF;
+    font-size: 30px;
+}
+
+div.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+div.h3-1 {
+    width: auto;
+}
+
+.años {
+    color:#34b0be;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.h3-2 {
+    width: auto;
+}
+
+.experiencia {
+    color:#FFFFFF;
+    font-size: 30px;
+}
+
+svg {
+    color: #d1ceca;
 }
