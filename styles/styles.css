@@ -4,14 +4,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #242635;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
+body {
+    background-color: #181c38;
+}
+
 .blue {
-    color: #34b0be
+    color: #34b0be;
 }
 
 a {
@@ -96,6 +99,163 @@ div.h3-1 {
     font-size: 30px;
 }
 
-svg {
-    color: #d1ceca;
+.redes-sociales {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.instagram {
+    background-color: #d1ceca;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.div-instagram {
+    order: 1;
+    background-color: #d1ceca;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #d1ceca;
+    border-radius: 50%;
+}
+
+.twitter {
+    background-color: #d1ceca;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.div-twitter {
+    order: 4;
+    background-color: #d1ceca;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #d1ceca;
+    border-radius: 50%;
+}
+
+.linkedin {
+    background-color: #d1ceca;
+    width: 30px;
+    height: 30px;
+}
+
+.div-linkedin {
+    background-color: #d1ceca;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #d1ceca;
+    border-radius: 50%; 
+}
+
+div.circulo {
+    background-color: #4b4d5a;
+    position: absolute;
+    z-index: -1;
+    margin-top: -18rem;
+    margin-left: 28%;
+    margin-right: 35%;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+}
+
+#foto {
+    background-color: transparent;
+    width: 530px;
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+.empresas {
+    background-color: #4b4d5a;
+    margin-top: 12rem;
+    margin-right: 19%;
+    margin-left: 18%;
+    border-radius: 15px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresas>div {
+    margin-left: 40px;
+}
+
+div.Google {
+    background-color: #d1ceca;
+    border-radius: 15px;
+    width: 160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Google>img {
+    width: 75px;
+    height: 75px;
+}
+
+div.Amazon {
+    background-color: #d1ceca;
+    border-radius: 15px;
+    width: 160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Amazon>img {
+    width: 80px;
+    height: 80px;
+}
+
+div.Spotify {
+    background-color: #d1ceca;
+    border-radius: 15px;
+    width: 160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spotify>img {
+    width: 70px;
+    height: 70px;
+}
+
+article>h2 {
+    color: #34b0be;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+article>p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+article>h2 {
+    color: #34b0be;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
 }
