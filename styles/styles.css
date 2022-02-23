@@ -259,3 +259,37 @@ article>h2 {
     font-size: 45px;
     font-weight: 600;
 }
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.servicios>div {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 315px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.espaciado>svg {
+    margin-top: -150px;
+}
+
+.espaciado>h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.espaciado>p {
+    margin-top: 60px;
+    color: #686666;
+}
+
+.mis-habilidades>h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+}
