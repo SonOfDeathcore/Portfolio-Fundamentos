@@ -11,26 +11,26 @@
     <nav>
          <ul>
             <li>
-                <a href="#" class="blue">Home</a>
+                <a href="#inicio" class="blue">Home</a>
             </li>
             <li>
-                <a href="#">Servicios</a>
+                <a href="#acerca">Acerca de mí</a>
             </li>
             <li>
-                <a href="#">Acerca de mí</a>
+                <a href="#servicios">Servicios</a>
             </li>
             <li>
-                <a href="#">Mis habilidades</a>
+                <a href="#habilidades">Mis habilidades</a>
             </li>
             <li>
-                <a href="#">Mi portafolio</a>
+                <a href="#portafolio">Mis portafolios</a>
             </li>
             <li>
-                <a href="#">Contacto</a>
+                <a href="#contacto">Contacto</a>
             </li>
         </ul>   
     </nav>
-    <section>
+    <section id="inicio">
         <div class="left">
             <div class="h2">
                 <h2 class="soy">Soy</h2>
@@ -91,11 +91,11 @@
             <img src="./assets/Logos- Imágenes/bi_spotify.png" alt="Spotify">
         </div>
     </section>
-    <article class="acerca-de-mi">
+    <article class="acerca-de-mi" id="acerca">
         <h2>Acerca de mí</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aspernatur, totam iusto esse, delectus odit dolorem dignissimos ullam adipisci, saepe ipsam? Alias corrupti et voluptate at quae aliquam iusto dolore. Vitae quam quae accusamus repellendus exercitationem, iure vero, optio nemo qui id, dolorem sequi impedit sapiente itaque officiis doloribus mollitia rem ad voluptatibus sed possimus aliquid? Temporibus minima cumque enim nostrum adipisci!</p>
     </article>
-    <article>
+    <article id="servicios">
         <h2>Servicios</h2>
     </article>
     <section class="servicios">
@@ -141,38 +141,32 @@
             </div>
         </div>
     </section>
-    <article>
+    <article id="habilidades">
         <h2>Mis habilidades</h2>
     </article>
     <section class="mis-habilidades">
         <h4>Web design</h4>
-        <p>80%</p>
-        <div>
-            <div>
-
-            </div>
+        <p class="ochenta">80%</p>
+        <div class="total">
+            <div class="porcentaje80"></div>
         </div>
         <h4>Interaction design</h4>
-        <p>95%</p>
-        <div>
-            <div>
-                
-            </div>
+        <p class="noventaYCinco">95%</p>
+        <div class="total">
+            <div class="porcentaje95"></div>
         </div>
         <h4>UX</h4>
-        <p>80%</p>
-        <div>
-            <div>
-                
-            </div>
+        <p class="ochenta">80%</p>
+        <div class="total">
+            <div class="porcentaje80"></div>
         </div>
     </section>
-    <article>
+    <article id="portafolio">
         <h2>Mis portafolios</h2>
     </article>
     <section class="mis-portafolios">
         <div>
-            <img src="./assets/Logos- Imágenes/Group 47.jpg" alt="Group 47">
+            <img src="./assets/Logos- Imágenes/Rectangle 65.jpg" alt="Rectangle 65">
         </div>
         <div>
             <img src="./assets/Logos- Imágenes/image 4.jpg" alt="image 4">
@@ -181,10 +175,10 @@
             <img src="./assets/Logos- Imágenes/Rectangle 53.jpg" alt="Rectangle 53">
         </div>
         <div>
-            <img src="./assets/Logos- Imágenes/Rectangle 65.jpg" alt="Rectangle 65">
+            <img src="./assets/Logos- Imágenes/Group 47.jpg" alt="Group 47">
         </div>
     </section>
-    <article>
+    <article id="contacto">
         <h2>Contacto</h2>
     </article>
     <section class="contacto">
@@ -192,7 +186,7 @@
             <svg width="315" height="179" viewBox="0 0 315 179" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M311 0.18486C313.209 0.18486 315.004 1.97646 314.96 4.18516C314.052 49.9937 297.572 93.7085 268.869 126.181C239.332 159.597 199.272 178.37 157.5 178.37C115.728 178.37 75.6677 159.597 46.1307 126.181C17.4282 93.7085 0.947902 49.9937 0.0396484 4.1852C-0.00414394 1.97649 1.79086 0.184887 4 0.184886L157.5 0.18486H311Z" fill="#F5F5F5"/>
             </svg>
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class= "telefono" idth="120" height="120" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M36.6669 28.2V33.2C36.6688 33.6642 36.5737 34.1236 36.3877 34.5489C36.2018 34.9742 35.929 35.356 35.587 35.6698C35.245 35.9836 34.8412 36.2225 34.4015 36.3712C33.9618 36.5199 33.4958 36.5751 33.0335 36.5333C27.9049 35.9761 22.9785 34.2236 18.6502 31.4167C14.6233 28.8578 11.2091 25.4436 8.65021 21.4167C5.83351 17.0687 4.08062 12.1183 3.53355 6.96666C3.4919 6.50577 3.54667 6.04126 3.69438 5.6027C3.84209 5.16414 4.0795 4.76114 4.39149 4.41936C4.70348 4.07758 5.08322 3.8045 5.50653 3.61753C5.92984 3.43055 6.38745 3.33376 6.85021 3.33332H11.8502C12.6591 3.32536 13.4432 3.61179 14.0565 4.13921C14.6698 4.66663 15.0703 5.39907 15.1835 6.19999C15.3946 7.8001 15.786 9.3712 16.3502 10.8833C16.5745 11.4799 16.623 12.1282 16.4901 12.7515C16.3571 13.3747 16.0483 13.9468 15.6002 14.4L13.4835 16.5167C15.8561 20.6892 19.311 24.1441 23.4835 26.5167L25.6002 24.4C26.0534 23.9519 26.6255 23.6431 27.2487 23.5101C27.872 23.3772 28.5203 23.4257 29.1169 23.65C30.629 24.2142 32.2001 24.6056 33.8002 24.8167C34.6098 24.9309 35.3492 25.3387 35.8778 25.9625C36.4063 26.5863 36.6872 27.3826 36.6669 28.2Z" fill="#34B0BE"/>
             </svg>
             <h4>Número celular</h4>
@@ -202,7 +196,7 @@
             <svg width="315" height="179" viewBox="0 0 315 179" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M311 0.18486C313.209 0.18486 315.004 1.97646 314.96 4.18516C314.052 49.9937 297.572 93.7085 268.869 126.181C239.332 159.597 199.272 178.37 157.5 178.37C115.728 178.37 75.6677 159.597 46.1307 126.181C17.4282 93.7085 0.947902 49.9937 0.0396484 4.1852C-0.00414394 1.97649 1.79086 0.184887 4 0.184886L157.5 0.18486H311Z" fill="#F5F5F5"/>
             </svg>
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class= "correo" width="140" height="140" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6.66683 6.66666H33.3335C35.1668 6.66666 36.6668 8.16666 36.6668 9.99999V30C36.6668 31.8333 35.1668 33.3333 33.3335 33.3333H6.66683C4.8335 33.3333 3.3335 31.8333 3.3335 30V9.99999C3.3335 8.16666 4.8335 6.66666 6.66683 6.66666Z" fill="#34B0BE" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M36.6668 9.99999L20.0002 21.6667L3.3335 9.99999" fill="#34B0BE"/>
                 <path d="M36.6668 9.99999L20.0002 21.6667L3.3335 9.99999" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

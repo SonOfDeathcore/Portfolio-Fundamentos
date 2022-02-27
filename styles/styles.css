@@ -289,7 +289,109 @@ article>h2 {
     color: #686666;
 }
 
+.mis-habilidades {
+    margin: 0 11rem 0 11rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .mis-habilidades>h4 {
     color: #FFFFFF;
     font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
+
+.mis-habilidades>p {
+    color: #34b0be;
+    align-self: flex-end;
+    padding-bottom: 5px;
+    margin-top: -10px;
+}
+
+.ochenta {
+    margin-right: 8rem;
+}
+
+.noventaYCinco {
+    margin-right: 1rem;
+}
+
+.total {
+    background-color: #FFFFFF;
+    height: 16px;
+    width: 53rem;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.porcentaje80 {
+    background-color: #34b0be;
+    height: 16px;
+    width: 44rem;
+    border-radius: 15px;
+}
+
+.porcentaje95 {
+    background-color: #34b0be;
+    height: 16px;
+    width: 51rem;
+    border-radius: 15px;
+}
+
+.mis-portafolios {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mis-portafolios>div {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacto>div {
+    background-color: #FFFFFF;
+    width: 315px;
+    height: 315px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-top: 40px;
+}
+
+.contacto>div>h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.telefono {
+    margin-top: -140px;
+}
+
+.correo{
+    margin-top: -160px;
+}
+
+footer {
+    background-color: #4b4d5a;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>p {
+    color:#34b0be;
+}
+
